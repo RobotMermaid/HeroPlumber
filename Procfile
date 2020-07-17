@@ -1,1 +1,1 @@
-rscript: R -f app.R --gui-none --no-save
+web: R app.R --gui-none --no-save --log-file
