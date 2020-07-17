@@ -1,1 +1,1 @@
-rscript: R --file app.R --gui-none --no-save
+rscript: R -f app.R --gui-none --no-save
