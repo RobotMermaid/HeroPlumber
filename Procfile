@@ -1,1 +1,1 @@
-web: Rscript app.R
+web: Rscript app.R $PORT
