@@ -1,1 +1,1 @@
-web: R -f app.R $PORT --no-save
+web: R -f app.R -p $PORT --no-save
