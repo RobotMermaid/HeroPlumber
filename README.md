@@ -31,3 +31,9 @@ It seems the post body must be in one line??
 https://github.com/rstudio/plumber/issues/270
 
 https://elements.heroku.com/buildpacks/virtualstaticvoid/heroku-buildpack-r
+https://blog.rmhogervorst.nl/blog/2018/12/06/running-an-r-script-on-heroku/
+but I used `heroku-18` instead of `16`
+
+heroku buildpacks:set https://github.com/virtualstaticvoid/heroku-buildpack-r.git                                        ──(Tue,Jul21)─┘
+--app desolate-cliffs-40129
+heroku stack:set 'heroku-18'   
