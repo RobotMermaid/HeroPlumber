@@ -27,3 +27,5 @@ You can use cat() to print out R info in a function
 curl -X POST http://localhost:8000/postit  -H 'cache-control: no-cache' -H 'content-type: application/json' -d "id=123&name=Jennifer"
 It seems the post body must be in one line??
 https://github.com/rstudio/plumber/issues/270
+
+https://elements.heroku.com/buildpacks/virtualstaticvoid/heroku-buildpack-r
